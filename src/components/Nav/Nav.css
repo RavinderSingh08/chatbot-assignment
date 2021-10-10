@@ -1,0 +1,19 @@
+.nav {
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 25px;
+  padding-top: 10px;
+}
+.nav img {
+  display: block;
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: scale(0.98);
+}
